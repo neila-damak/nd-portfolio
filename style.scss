@@ -17,6 +17,10 @@ html {
 
 .portfolio-body {
 
+	.sub-header{
+		font-weight: 700;
+	}
+
 	body {
 		background-color: $background-color;
 	}
@@ -48,6 +52,7 @@ html {
 		font-weight: 700;
 		text-transform: uppercase;
 		text-align: right;
+		margin-top: 4px;
 
 		@media only screen and (max-width: 768px) {
 			text-align: left;
@@ -58,7 +63,8 @@ html {
 	h3, .h3 {
 		font-family: $primary-font;
 		color: $text-color;
-		font-size: 1rem;
+		font-size: 1.3rem;
+		line-height: 1.6rem;
 		font-weight: 700;
 	}
 
@@ -67,9 +73,12 @@ html {
 		color: $text-color;
 		font-size: 1rem;
 		font-weight: 400;
+		text-align: justify;
 
 		&.alt-txt {
 			font-family: $secondary-font;
+			// display: inline-block;
+			white-space: nowrap;
 		}
 	}
 
@@ -140,16 +149,20 @@ html {
 	}
 
 	ul {
+		list-style: inherit;
+		
 		li {
 			font-family: $primary-font;
 			color: $text-color;
 			font-size: 1rem;
 			font-weight: 400;
+			text-align: justify;
+			margin-bottom: 8px;
 
-			&:before {
-				content: '-';
-				padding-right: 10px;
-			}
+			// &:before {
+			// 	content: '-';
+			// 	padding-right: 10px;
+			// }
 		}
 	}
 
