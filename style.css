@@ -80,6 +80,9 @@
 }
 .portfolio-body a.h3:after {
   border-color: #2C3E50;
+  width: 4px;
+  height: 4px;
+  padding: 2px;
 }
 .portfolio-body a:hover {
   cursor: pointer;
@@ -406,7 +409,7 @@
   overflow: hidden;
 }
 .portfolio-body .portfolio-container .col {
-  width: 1000px;
+  width: 1300px;
   margin: 0px auto 0px auto;
 }
 @media only screen and (max-width: 1000px) {
@@ -416,7 +419,7 @@
 }
 .portfolio-body .portfolio-container .col .grid-row {
   display: grid;
-  grid-template-columns: 1fr 2fr;
+  grid-template-columns: 1fr 3fr;
   grid-column-gap: 50px;
   height: 100%;
   position: relative;
@@ -510,6 +513,7 @@
 }
 .portfolio-body .portfolio-container .col .grid-row .contact-icons {
   max-width: 40px;
+  width: 40px;
   margin-left: auto;
 }
 .portfolio-body .portfolio-container .col .grid-row .contact-icons img {
